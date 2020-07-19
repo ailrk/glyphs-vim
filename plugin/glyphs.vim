@@ -462,7 +462,7 @@ if !exists('g:glyphs_vim#default_glyphs')
     \})
 
   " Greek (upper)
-  call extend(g:agda#default_glyphs, {
+  call extend(g:glyphs_vim#default_glyphs, {
     \   'Alpha': 'Α',
     \   'Beta': 'Β',
     \   'Gamma': 'Γ',
@@ -497,7 +497,7 @@ if !exists('g:glyphs_vim#default_glyphs')
     \})
 
   " Blackboard
-  call extend(g:agda#default_glyphs, {
+  call extend(g:glyphs_vim#default_glyphs, {
     \   'bA': '𝔸',
     \   'bB': '𝔹',
     \   'bC': 'ℂ',
