@@ -83,7 +83,7 @@ setlocal matchpairs+=｛:｝
 setlocal matchpairs+=｟:｠
 setlocal matchpairs+=｢:｣
 
-if get(g:, 'glyphs_vim#default_glyphs', v:true)
+if get(g:, 'glyphs_vim_enable', v:true)
     for [sequence, symbol] in items(g:agda#glyphs)
       execute printf('noremap! <buffer> <LocalLeader>%s %s', sequence, symbol)
     endfor
