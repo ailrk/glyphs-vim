@@ -72,6 +72,7 @@ if !exists('g:glyphs_vim#default_glyphs')
     \   ';': '﹔',
     \   '..': '‥',
     \   '=?': '≟',
+    \   'nminus' : '∸',
     \   'all': '∀',
     \   'always': '□',
     \   'approx': '≈',

@@ -1,0 +1,8 @@
+    glyphs-vim
+====================
+
+g:glyphs_vim#glyphs
+    Glyph dictionary, it can be extended by users.
+
+g:glyphs_vim_enable = true
+    disable the plugin if the value is false
