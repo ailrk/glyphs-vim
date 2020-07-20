@@ -40,11 +40,18 @@ function! s:GlyphsVimDisable()
     silent! call s:GlyphsVimDisable_()
 endfunction
 
+function! s:GlyphsVimInit()
+    call s:GlyphsVimLoad()
+    if g:glyphs_vim_default_enable
+        autocmd BufEnter * call s:GlyphsVimLoad()
+    endif
+endfunction
+
 " command export
-command! -buffer -nargs=0 GlyphsVimEnable call s:GlyphsVimEnable()
-command! -buffer -nargs=0 GlyphsVimDisable call s:GlyphsVimDisable()
+command! -nargs=0 GlyphsVimEnable call s:GlyphsVimEnable()
+command! -nargs=0 GlyphsVimDisable call s:GlyphsVimDisable()
 
 " init plugin
-call s:GlyphsVimLoad()
+call s:GlyphsVimInit()
 
 let &cpo = s:cpo_save

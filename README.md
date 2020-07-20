@@ -1,6 +1,7 @@
 # A Vim Plugin to help type glyphs easier
 
 ## How to use
+`:GlyphVimEnable`: enable for current buffer.
 [![Demo](https://asciinema.org/a/Slcieff00LVAgQz6Rnzcq85sO.svg)](https://asciinema.org/a/Slcieff00LVAgQz6Rnzcq85sO)
 ## install
 
