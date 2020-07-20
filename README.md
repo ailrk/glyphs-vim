@@ -1,7 +1,5 @@
 # A Plugin For typing glyphs easier in vim
 
-It's basically a stripped down version of the glyph input system from [agda-vim](https://github.com/derekelkins/agda-vim).
-
 ## install
 If you are using `vim-plug` add this line to your `.vimrc`
 ```
