@@ -2,8 +2,11 @@
 
 ## How to use
 `:GlyphVimEnable`: enable for current buffer.
+
 `:GlyphVimDisable`: enable for current buffer.
+
 `g:glyph_vim_default_enable`: enable globally.
+
 Use the combination of `<localleader>` + `glyph name` to input a glyph. For instance, if your `<localleader>` is `\`, to input ℕ just type `\N`.
 
 ## Demo
