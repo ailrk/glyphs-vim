@@ -6,3 +6,6 @@ g:glyphs_vim#glyphs
 
 g:glyphs_vim_enable = true
     disable the plugin if the value is false
+
+g:glyphs_vim_extend_glyphs = dict
+    extend the default glyphs with user defined table.

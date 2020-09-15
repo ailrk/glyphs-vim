@@ -15,6 +15,7 @@ function! s:GlyphsVimLoad()
     if s:GlyphsVimShouldLoad()
         runtime plugin/glyphs.vim
         runtime plugin/glyphs-pair.vim
+        call extend(g:glyphs_vim_glyphs, g:glyphs_vim_extend_glyphs)
         for [abbrv, sym] in items(g:glyphs_vim_glyphs)
             execute printf(
                         \'noremap! <buffer> <LocalLeader>%s %s',
